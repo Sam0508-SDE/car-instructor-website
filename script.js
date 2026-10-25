@@ -15,7 +15,7 @@ nav.addEventListener('click', (e) => {
 document.getElementById('year').textContent = new Date().getFullYear();
 
 // No backend yet: build a mailto link from the form.
-const EMAIL = 'hello@example.com';
+const EMAIL = 'info@veesdrivingschool.com.au';
 const form = document.getElementById('contact-form');
 const msg = form.querySelector('.form-msg');
 
